@@ -26,11 +26,3 @@ await createSupabaseMCPServer(server, {
 // Запуск сервера
 const transport = new StdioServerTransport();
 await server.connect(transport);
-
-
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/mrbuslov/official-supabase-mcp.git
-git push -u origin main
