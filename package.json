@@ -1,0 +1,14 @@
+{
+  "name": "official-supabase-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/mcp-server-supabase": "^0.5.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
